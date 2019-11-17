@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.editor {
+  width: 100vw;
+  min-height: 100vh;
+  /* margin: 2rem; */
+  padding: 2rem;
+  background: #282c34;
+  color: azure;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.header input {
+  padding: .5rem;
+  width: 10rem;
+  margin-left: 1rem;
+}
+
+.header label {
+  width: 10rem;
+  font-size: medium;
+  font-weight: 800;
+}
+
+.edit-pop {
+  position: absolute;
+  top: 150px;
+  right: 20px;
+  opacity: 0.5;
+  background: wheat;
+  min-height: 2rem;
+  width: 10rem;
+  padding: .5rem;
+  color: #282c34;
+  border-radius: 10px;
+  transition: all 5s ease-in-out;
+}
